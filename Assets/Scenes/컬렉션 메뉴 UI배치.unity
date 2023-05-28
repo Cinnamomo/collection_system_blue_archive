@@ -609,8 +609,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b7ce77030e3ea2846afabeb81a0859a8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 14398041}
   - component: {fileID: 14398043}
   - component: {fileID: 14398042}
+  - component: {fileID: 14398044}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -707,6 +708,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14398040}
   m_CullTransparentMesh: 1
+--- !u!114 &14398044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14398040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &16267347
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,7 +874,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 09 Barrier
 --- !u!222 &19188423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1770,7 +1786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uC778\uD130\uBDF0"
 --- !u!222 &72552810
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1837,8 +1853,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e8ac511a8ba79cb4aa8cef5db3bf64e2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1926,7 +1942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: PV
 --- !u!222 &78341214
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3951,7 +3967,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uB300\uCC45\uC704\uC6D0\uD68C1"
 --- !u!222 &157084942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4237,7 +4253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 07 Vivid NIght
 --- !u!222 &162300088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4477,7 +4493,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01 Target for love 03:32
+  m_Text: 01 Target for love
 --- !u!222 &166840618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5217,7 +5233,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\r\n\uC218\uCC9C \uAC1C\uC758 \uD559\uC6D0\uC774 \uBAA8\uC5EC \uC5F0\uBC29\uC744
+    \uAD6C\uC131\uD558\uACE0 \uC788\uB294\r\n\uAC70\uB300\uD55C \uD559\uC6D0\uB3C4\uC2DC.\r\n\r\n\uC774\uACF3\uC758
+    \uD559\uC0DD\uB4E4\uC740 \uCD1D\uAE30\uB97C \uB9C8\uCE58 \uD734\uB300\uD3F0\uCC98\uB7FC\r\n\uC790\uC5F0\uC2A4\uB7FD\uAC8C
+    \uC18C\uC720\uD558\uACE0 \uC788\uB2E4."
 --- !u!222 &191724561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5420,7 +5439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d87871a58fc07604296442271b89a432, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f34a322d4eff7f24cafcf5090d66488f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5869,7 +5888,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 12 Honey Jam
 --- !u!222 &221253799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6092,7 +6111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dfecd3b88ac2a2a408eb0db1ff0b061d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6675,7 +6694,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC544\uBE44\uB3C4\uC2A4"
 --- !u!222 &263272439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6968,8 +6987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290.6, y: 84.10002}
-  m_SizeDelta: {x: 520, y: 640}
+  m_AnchoredPosition: {x: -290.6, y: 221.6}
+  m_SizeDelta: {x: 520, y: 365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273110489
 MonoBehaviour:
@@ -6991,7 +7010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c2d0895600f8bd840a88859f98749776, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7080,7 +7099,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 04 Step by Step
 --- !u!222 &275546150
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7598,7 +7617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC544\uBE44\uB3C4\uC2A4"
 --- !u!222 &289417096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8785,7 +8804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uACF5\uC2DD \uC18C\uAC1C"
 --- !u!222 &326461667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9077,8 +9096,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f5d541cad5b62c04985ba3f5a710cb07, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9166,7 +9185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uACF5\uC2DD \uC18C\uAC1C"
 --- !u!222 &345471808
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9380,7 +9399,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uC2DC\uB85C\uCF54"
 --- !u!222 &353982166
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9623,7 +9642,7 @@ GameObject:
   - component: {fileID: 361183444}
   - component: {fileID: 361183443}
   m_Layer: 5
-  m_Name: world secret collection
+  m_Name: concept collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10025,7 +10044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "73\uD654"
 --- !u!222 &376061209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10045,6 +10064,7 @@ GameObject:
   - component: {fileID: 386014601}
   - component: {fileID: 386014603}
   - component: {fileID: 386014602}
+  - component: {fileID: 386014604}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -10114,6 +10134,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386014600}
   m_CullTransparentMesh: 1
+--- !u!114 &386014604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386014600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &393969462
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,15 +10201,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dc06179585e89484a923b1efe30a4244, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10683,7 +10718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uD559\uC6D0\uB3C4\uC2DC '\uD0A4\uBCF4\uD1A0\uC2A4'"
 --- !u!222 &430810722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10986,7 +11021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 550ec9d2bcbcfb540b6fb48d4e6153af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11716,6 +11751,7 @@ GameObject:
   - component: {fileID: 496752018}
   - component: {fileID: 496752020}
   - component: {fileID: 496752019}
+  - component: {fileID: 496752021}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -11785,6 +11821,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496752017}
   m_CullTransparentMesh: 1
+--- !u!114 &496752021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496752017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &500465000
 GameObject:
   m_ObjectHideFlags: 0
@@ -12012,7 +12063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uC778\uD130\uBDF0"
 --- !u!222 &505372297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13489,8 +13540,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 42042790669366e4aa0cfd265ecb3e1f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13861,7 +13912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99:99
+  m_Text: 10:23
 --- !u!222 &607127491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14058,7 +14109,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uD559\uC6D0\uB3C4\uC2DC '\uD0A4\uBCF4\uD1A0\uC2A4'"
 --- !u!222 &611326690
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14432,7 +14483,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "71\uD654"
 --- !u!222 &632596811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14839,7 +14890,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBE14\uB8E8 \uC544\uCE74\uC774\uBE0C \uACF5\uC2DD PV \uC601\uC0C1"
+  m_Text: "\uACF5\uC2DD PV \uC601\uC0C1"
 --- !u!222 &663337181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14906,8 +14957,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5ddeb531061441b47b9368eae92c00e8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15062,7 +15113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 40e7d872310af7d48a980fda6f968a89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15173,7 +15224,7 @@ GameObject:
   - component: {fileID: 677028908}
   - component: {fileID: 677028907}
   m_Layer: 5
-  m_Name: to 4 cut manga
+  m_Name: to officlal 4cut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15288,8 +15339,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e2269ad0cf2a57c4ebef781caaf246bd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -16596,7 +16647,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 14 Mechanical JUNGLE
 --- !u!222 &759659374
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17747,7 +17798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2880e15a1ac939d4e8da38933f3f849a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18339,7 +18390,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 06 MX Adventure
 --- !u!222 &833769988
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18777,7 +18828,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 11 Connected Sky
 --- !u!222 &854476247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21664,7 +21715,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 16 Tech N Tech
 --- !u!222 &967558921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21731,7 +21782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3e054f88801aa3b42880d6affcf7e1bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22146,7 +22197,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 05 Lovely Picnic
 --- !u!222 &981721534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22560,7 +22611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5ddeb531061441b47b9368eae92c00e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23102,7 +23153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: ???
 --- !u!222 &1014076615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23315,7 +23366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 26d0cbc773f8cac42bedc9e2c3f94ddf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23346,7 +23397,7 @@ GameObject:
   - component: {fileID: 1045339549}
   - component: {fileID: 1045339548}
   m_Layer: 5
-  m_Name: to world secret collection
+  m_Name: to concept collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23461,8 +23512,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d7a66aa43806cef4cbe6face23e6944e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -23661,7 +23712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 96092f91ed496c240a8a0847440131e5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23995,7 +24046,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d6582bc9665982d40b2993d952312b48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24148,7 +24199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4abb0a35807d5b14ba5bd6435034b8c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24281,8 +24332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285.95016, y: -18.31961}
-  m_SizeDelta: {x: 355.5636, y: 62.6778}
+  m_AnchoredPosition: {x: -274.0621, y: -18.31961}
+  m_SizeDelta: {x: 379.3397, y: 62.6778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095292487
 MonoBehaviour:
@@ -24317,7 +24368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uD55C\uC5EC\uB984\uC758 \uC2AC\uB7A9\uC2A4\uD2F1"
 --- !u!222 &1095292488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25039,6 +25090,7 @@ GameObject:
   - component: {fileID: 1128796727}
   - component: {fileID: 1128796729}
   - component: {fileID: 1128796728}
+  - component: {fileID: 1128796730}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -25108,6 +25160,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128796726}
   m_CullTransparentMesh: 1
+--- !u!114 &1128796730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128796726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1131446807
 GameObject:
   m_ObjectHideFlags: 0
@@ -25216,7 +25283,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC5F0\uBC29\uC218\uC0AC\uB3D9\uC544\uB9AC '\uC0EC\uB808'"
 --- !u!222 &1146981153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26344,7 +26411,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC560\uB2C8\uBA54\uC774\uC158 PV \uC601\uC0C1"
 --- !u!222 &1193671429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27201,7 +27268,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b5fb93de0ef04c944bca9ef0238b5119, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27436,7 +27503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "PD \uC778\uD130\uBDF0"
 --- !u!222 &1216572162
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27516,7 +27583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 08 Funky Road
 --- !u!222 &1216733565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27741,7 +27808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 47ebda56547a8114999cd7c71b84198f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28279,7 +28346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 13 Midnight Trip
 --- !u!222 &1240286879
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28709,8 +28776,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 28cbf1d819a63c0479d67d5c2f888b20, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -29001,7 +29068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a509e8ed833ca8e46a33e083a44defdb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29802,7 +29869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 092372115165e544a9ba9a6d6fe2401a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30463,7 +30530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uB300\uCC45\uC704\uC6D0\uD68C2"
 --- !u!222 &1345562472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30530,7 +30597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8b08fca80c7550a4a8ec9ff549ffd8f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30645,8 +30712,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f34a322d4eff7f24cafcf5090d66488f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -30797,7 +30864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7bae2b42580f1264b8be40bdfa3a6a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 121ad786dca8e30439a2f4f9a42537a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31389,7 +31456,7 @@ GameObject:
   - component: {fileID: 1403644306}
   - component: {fileID: 1403644305}
   m_Layer: 5
-  m_Name: henriya68
+  m_Name: illust.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31435,7 +31502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc07bc4c13939bb4c8a5968ef0c2b08c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86d891516edcbcc4389ba447fe9bb8de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -32342,7 +32409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC544\uBE44\uB3C4\uC2A4"
 --- !u!222 &1446716419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33285,7 +33352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 15 Virtual Storm
 --- !u!222 &1474737137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33445,7 +33512,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uB450\uB835\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4!"
 --- !u!222 &1478786371
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33547,7 +33614,7 @@ GameObject:
   - component: {fileID: 1486834245}
   - component: {fileID: 1486834244}
   m_Layer: 5
-  m_Name: 4 cut manga
+  m_Name: official 4cut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33744,15 +33811,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b9da38bde714c944caf390d3179851a3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -33840,7 +33907,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 03 Plug and Play
 --- !u!222 &1497018733
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33998,7 +34065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: da6613f20d08f8946999f871cbab28ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -34846,7 +34913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC0DD\uD140 \uD0C0\uC6CC"
 --- !u!222 &1525000206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34926,7 +34993,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "70\uD654"
 --- !u!222 &1526984011
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35762,7 +35829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a509e8ed833ca8e46a33e083a44defdb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36317,7 +36384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a509e8ed833ca8e46a33e083a44defdb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36908,7 +36975,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: ???
 --- !u!222 &1634779931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37112,7 +37179,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uC544\uBB34\uAC70\uB098"
 --- !u!222 &1637446049
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37870,7 +37937,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d5604c4302d0a2e41b3aff834f5784a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86d891516edcbcc4389ba447fe9bb8de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -38553,7 +38620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "72\uD654"
 --- !u!222 &1682339439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38847,7 +38914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC2EF\uB524\uC758 \uC0C1\uC790"
 --- !u!222 &1688678264
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38927,7 +38994,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uC131\uB0E5 \uC313\uAE30"
 --- !u!222 &1689812317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39087,7 +39154,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uD48D\uAE30\uC704\uC6D0\uD68C"
 --- !u!222 &1692545546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39629,7 +39696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 34e357244ad3cb04bb3dc12b1d297026, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39785,7 +39852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 784b58bc28bae4240a919deb6376db3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39974,6 +40041,7 @@ GameObject:
   - component: {fileID: 1726521524}
   - component: {fileID: 1726521526}
   - component: {fileID: 1726521525}
+  - component: {fileID: 1726521527}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -40043,6 +40111,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726521523}
   m_CullTransparentMesh: 1
+--- !u!114 &1726521527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726521523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1730398086
 GameObject:
   m_ObjectHideFlags: 0
@@ -40690,7 +40773,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uACF5\uC2DD \uC18C\uAC1C"
 --- !u!222 &1749194457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40814,8 +40897,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290.6, y: 84.10002}
-  m_SizeDelta: {x: 520, y: 640}
+  m_AnchoredPosition: {x: -290.6, y: 221.6}
+  m_SizeDelta: {x: 520, y: 365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762791525
 MonoBehaviour:
@@ -40926,7 +41009,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: PV
 --- !u!222 &1765818713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41082,7 +41165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uD551\uD06C \uAC00\uB4DC"
 --- !u!222 &1774140364
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41587,7 +41670,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "69\uD654"
 --- !u!222 &1780299558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42537,7 +42620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uB77C\uC774\uBE0C \uD3EC\uC2A4\uD130 \uC601\uC0C1 B"
 --- !u!222 &1816031786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43638,7 +43721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2040fa1247b331441845566202805731, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43950,7 +44033,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: PV
 --- !u!222 &1876180291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -44759,7 +44842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uB77C\uC774\uBE0C \uD3EC\uC2A4\uD130 \uC601\uC0C1 A"
 --- !u!222 &1894045146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45049,7 +45132,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC131\uC6B0 \uC778\uD130\uBDF0 - \uC624\uAD6C\uB77C \uC720"
 --- !u!222 &1907092499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45253,7 +45336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 10 Daily Routine
 --- !u!222 &1908831088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45333,7 +45416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99 Lorem ipsum 99:99
+  m_Text: 02 Constant Moderato
 --- !u!222 &1910670477
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45573,7 +45656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uACF5\uC2DD \uC18C\uAC1C"
 --- !u!222 &1917372458
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45798,7 +45881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c2d0895600f8bd840a88859f98749776, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -46164,7 +46247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1054da7e1bd663c42ae1a89e68b60ec6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -46333,7 +46416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uAC8C\uD5E8\uB098"
 --- !u!222 &1955482900
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46795,7 +46878,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "PD \uC778\uD130\uBDF0"
 --- !u!222 &1960250430
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47115,7 +47198,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum
+  m_Text: "\uB300\uCC45\uC704\uC6D0\uD68C3"
 --- !u!222 &1962657779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47182,7 +47265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4b2e74a781f1b7a49acd0dd438698897, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47553,7 +47636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 77bce9ea70ba0194e8818dd1ca9332eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7177728cd094ba8489838f6da25836af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47582,6 +47665,7 @@ GameObject:
   - component: {fileID: 1976470025}
   - component: {fileID: 1976470027}
   - component: {fileID: 1976470026}
+  - component: {fileID: 1976470028}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -47651,6 +47735,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976470024}
   m_CullTransparentMesh: 1
+--- !u!114 &1976470028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976470024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1986617212
 GameObject:
   m_ObjectHideFlags: 0
@@ -47766,8 +47865,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290.6, y: 84.10002}
-  m_SizeDelta: {x: 520, y: 640}
+  m_AnchoredPosition: {x: -290.6, y: 221.6}
+  m_SizeDelta: {x: 520, y: 365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000877092
 MonoBehaviour:
@@ -47789,7 +47888,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 26d0cbc773f8cac42bedc9e2c3f94ddf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49732,7 +49831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Lorem ipsum
+  m_Text: "\uC544\uBE44\uB3C4\uC2A4"
 --- !u!222 &2079319630
 CanvasRenderer:
   m_ObjectHideFlags: 0
